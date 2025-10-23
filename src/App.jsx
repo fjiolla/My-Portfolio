@@ -1,13 +1,13 @@
 import React from "react";
 import NavBar from "./components/Navbar.jsx";
+import Home from "./components/Home.jsx"; 
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar/>
       <main>
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is a placeholder for your portfolio sections.</p>
+        <Home/> 
       </main>
     </div>
   );

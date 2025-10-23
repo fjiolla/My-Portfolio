@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 0rem 3rem 0rem 1.5rem;
-  background-color: #000000;
 }
 
 .navbar-logo .logo {
@@ -19,7 +18,7 @@
 
 .navbar-links a {
   text-decoration: none;
-  color: #333;
+  color: #a8a7a7;
   font-weight: 500;
 }
 
