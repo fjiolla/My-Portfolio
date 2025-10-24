@@ -7,7 +7,7 @@ import BuildIcon from "@mui/icons-material/Build";
 import myIcon2 from "../assets/myIcon2.svg";
 
 // Import icons
-import Javascript from "../assets/Icons/javaScript.svg";
+import Javascript from "../assets/Icons/javascript.svg";
 import GitHub from "../assets/Icons/github.svg";
 import cpp from "../assets/Icons/C++.svg";
 import ReactIcon from "../assets/Icons/ReactIcon.svg";
