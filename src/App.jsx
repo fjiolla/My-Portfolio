@@ -1,15 +1,24 @@
 import React from "react";
-import NavBar from "./components/Navbar.jsx";
-import Home from "./components/Home.jsx"; 
+import { Box } from "@mui/material";
+import NavBar from "./components/Navbar";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
+    <Box
+      sx={{
+        minHeight: "100vh",
+        bgcolor: "#0a192f",
+        margin: 0,
+        padding: 0,
+        overflow: "hidden",
+      }}
+    >
+      <NavBar />
       <main>
-        <Home/> 
+        <Home />
       </main>
-    </div>
+    </Box>
   );
 }
 

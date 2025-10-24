@@ -1,24 +1,54 @@
 import React from "react";
-import logo from "../assets/logo.png"; 
-import "./NavBar.css"; 
+import { AppBar, Toolbar, Button, Box, Avatar } from "@mui/material";
+import logo from "../assets/logo.png";
 
 function NavBar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
-        <a href="/">
-          <img src={logo} className="logo"/>
-        </a>
-      </div>
+    <AppBar
+      position="static"
+      elevation={0}
+      sx={{
+        bgcolor: "transparent",
+        py: 1,
+      }}
+    >
+      <Toolbar sx={{ justifyContent: "space-between", px: 3 }}>
+        <Box sx={{ display: "flex", alignItems: "center" }}>
+          <Avatar
+            src={logo}
+            alt="Logo"
+            sx={{ width: 100, height: 100 }}
+            variant="square"
+          />
+        </Box>
 
-      <ul className="navbar-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/projects">Events</a></li>
-        <li><a href="/resume">Resume</a></li>
-      </ul>
-    </nav>
+        <Box
+          sx={{
+            display: { xs: "none", md: "flex" },
+            gap: 5,
+          }}
+        >
+          {["Home", "About", "Projects", "Events", "Resume"].map((item) => (
+            <Button
+              key={item}
+              href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
+              sx={{
+                color: "#a8a7a7",
+                fontSize: "1.3rem",
+                fontWeight: 600,
+                textTransform: "none",
+                "&:hover": {
+                  color: "#007bff",
+                  bgcolor: "transparent",
+                },
+              }}
+            >
+              {item}
+            </Button>
+          ))}
+        </Box>
+      </Toolbar>
+    </AppBar>
   );
 }
 
