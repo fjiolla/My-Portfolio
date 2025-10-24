@@ -29,7 +29,7 @@ function About() {
 	const techStack = [
 		{ name: "C++", icon: cpp },
 		{ name: "Python", icon: Python },
-		{ name: "JavaScript", icon: Javascript },
+		{ name: "JavaScript", icon:  Javascript},
 		{ name: "React.js", icon: ReactIcon },
 		{ name: "Tailwind CSS", icon: Tailwind },
 		{ name: "Material-UI", icon: MUI },
