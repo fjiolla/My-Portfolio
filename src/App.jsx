@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Events from "./components/Events";
 import "./index.css";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
 						<Route path="/about" element={<About />} />
 						<Route path="/projects" element={<Projects />} />
 						<Route path="/resume" element={<Resume />} />
+						<Route path="/events" element={<Events />} />
 					</Routes>
 				</main>
 			</Box>
