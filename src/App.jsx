@@ -7,6 +7,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Events from "./components/Events";
+import Footer from "./components/Footer";
 import "./index.css";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
 						<Route path="/events" element={<Events />} />
 					</Routes>
 				</main>
+				<Footer/>
 			</Box>
 		</Router>
 	);
