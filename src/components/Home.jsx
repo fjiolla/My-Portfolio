@@ -53,8 +53,6 @@ function Home() {
 						sx={{
 							flex: 1,
 							textAlign: { xs: "center", md: "left" },
-							mt: { xs: 0, md: -8 },
-							ml: { xs: 0, md: -8 },
 						}}
 					>
 						<Typography
@@ -131,9 +129,7 @@ function Home() {
 							flex: 1,
 							display: "flex",
 							justifyContent: { xs: "center", md: "flex-end" },
-							mt: { xs: 4, md: -8 },
-							mr: { xs: 0, md: -7 },
-						}}
+							mt: { xs: 4, md: 0 },						}}
 					>
 						<Avatar
 							src={myIcon}

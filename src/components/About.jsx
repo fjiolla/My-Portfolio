@@ -29,7 +29,7 @@ function About() {
 	const techStack = [
 		{ name: "C++", icon: cpp },
 		{ name: "Python", icon: Python },
-		{ name: "JavaScript", icon:  Javascript},
+		{ name: "JavaScript", icon: Javascript },
 		{ name: "React.js", icon: ReactIcon },
 		{ name: "Tailwind CSS", icon: Tailwind },
 		{ name: "Material-UI", icon: MUI },
@@ -93,6 +93,7 @@ function About() {
 				minHeight: "100vh",
 				display: "flex",
 				alignItems: "center",
+				justifyContent: "center",
 				py: 8,
 				color: "#fff",
 			}}
@@ -310,9 +311,10 @@ function About() {
 						</Box>
 					</Grid>
 				</Grid>
+
 				{/* Tech Stack */}
 				<Box sx={{ mb: 10 }}>
-					<Box sx={{ display: "flex", alignItems: "center", mb: 5 }}>
+					<Box sx={{ display: "flex", alignItems: "center", mb: 5, justifyContent: { xs: "center", md: "flex-start" } }}>
 						<CodeIcon sx={{ fontSize: "2rem", color: "#00d4ff", mr: 2 }} />
 						<Typography
 							variant="h4"
@@ -325,7 +327,7 @@ function About() {
 							Tech Stack
 						</Typography>
 					</Box>
-					<Grid container spacing={4}>
+					<Grid container spacing={4} justifyContent={{ xs: "center", md: "flex-start" }}>
 						{techStack.map((tech) => (
 							<Grid item key={tech.name}>
 								<IconBox item={tech} color="#00d4ff" hoverColor="#00d4ff" />
@@ -336,7 +338,7 @@ function About() {
 
 				{/* Academic Favorites */}
 				<Box sx={{ mb: 10 }}>
-					<Box sx={{ display: "flex", alignItems: "center", mb: 5 }}>
+					<Box sx={{ display: "flex", alignItems: "center", mb: 5, justifyContent: { xs: "center", md: "flex-start" } }}>
 						<SchoolIcon sx={{ fontSize: "2rem", color: "#00d4ff", mr: 2 }} />
 						<Typography
 							variant="h4"
@@ -349,7 +351,7 @@ function About() {
 							Academic Favorites
 						</Typography>
 					</Box>
-					<Grid container spacing={2}>
+					<Grid container spacing={2} justifyContent={{ xs: "center", md: "flex-start" }}>
 						{favorites.map((subject) => (
 							<Grid item key={subject.name}>
 								<Chip
@@ -386,7 +388,7 @@ function About() {
 
 				{/* Tools */}
 				<Box>
-					<Box sx={{ display: "flex", alignItems: "center", mb: 5 }}>
+					<Box sx={{ display: "flex", alignItems: "center", mb: 5, justifyContent: { xs: "center", md: "flex-start" } }}>
 						<BuildIcon sx={{ fontSize: "2rem", color: "#00d4ff", mr: 2 }} />
 						<Typography
 							variant="h4"
@@ -399,7 +401,7 @@ function About() {
 							Tools I Use
 						</Typography>
 					</Box>
-					<Grid container spacing={2}>
+					<Grid container spacing={2} justifyContent={{ xs: "center", md: "flex-start" }}>
 						{tools.map((tool) => (
 							<Grid item key={tool.name}>
 								<Chip
