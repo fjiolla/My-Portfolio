@@ -18,7 +18,7 @@
 ## 📸 Preview
 <div align="center">
   <a href="https://fjiolla.vercel.app" target="_blank">
-    <img src="./screenshots/home.png" alt="Portfolio Screenshot" />
+    <img src="./assets/screenshot.png" alt="Portfolio Screenshot" />
   </a>
 </div>
 
