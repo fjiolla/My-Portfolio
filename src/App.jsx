@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Events from "./components/Events";
 import Footer from "./components/Footer";
+import DrumSet from "./components/drum";
 import "./index.css";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
 						<Route path="/projects" element={<Projects />} />
 						<Route path="/resume" element={<Resume />} />
 						<Route path="/events" element={<Events />} />
+						<Route path="/drum" element={<DrumSet />} />
 					</Routes>
 				</main>
 				<Footer/>
