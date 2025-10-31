@@ -57,8 +57,8 @@ export default function DrumSetTopView() {
         gap: 3,
         p: 4,
         bgcolor: "#1a1a1a",
-        minHeight: "90vh",
-        width: "163vh",
+        minHeight: "100%",
+        width: "100%",
       }}
     >
       <Typography variant="h4" sx={{ color: "#fff", mb: 2 }}>Drum Set</Typography>
