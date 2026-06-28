@@ -172,7 +172,7 @@ function Footer() {
 								fontSize: "0.85rem",
 							}}
 						>
-							© 2025 All rights reserved
+							© 2026 All rights reserved
 						</Typography>
 					</Box>
 				</Box>
