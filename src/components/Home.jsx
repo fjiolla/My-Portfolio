@@ -100,29 +100,6 @@ function Home() {
 					}}
 				>
 					<Box sx={{ flex: 1, textAlign: { xs: "center", md: "left" } }}>
-						<Box
-							sx={{
-								display: "inline-flex",
-								alignItems: "center",
-								gap: 1,
-								px: 2,
-								py: 0.75,
-								mb: 3,
-								borderRadius: 999,
-								border: "1px solid rgba(74, 222, 128, 0.35)",
-								bgcolor: "rgba(74, 222, 128, 0.08)",
-							}}
-						>
-							<Box
-								sx={{
-									width: 9,
-									height: 9,
-									borderRadius: "50%",
-									bgcolor: "#4ade80",
-									animation: `${pulse} 2s infinite`,
-								}}
-							/>
-						</Box>
 
 						<Typography
 							variant="h1"
