@@ -122,9 +122,6 @@ function Home() {
 									animation: `${pulse} 2s infinite`,
 								}}
 							/>
-							<Typography sx={{ fontSize: "0.85rem", color: "#4ade80", fontWeight: 600 }}>
-								Open to internships & opportunities
-							</Typography>
 						</Box>
 
 						<Typography
