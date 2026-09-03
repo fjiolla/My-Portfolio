@@ -39,7 +39,7 @@ const projects = [
 			"A real-time, multi-agent traffic incident command system using six LangGraph agents coordinated by a Gemini supervisor. Simulates 250 Brooklyn road segments, predicts congestion with DBSCAN, prioritizes emergency vehicles, and generates Digital Twin analyses. 🏆 1st place, Aetrix Hackathon 2026.",
 		tags: ["Next.js", "FastAPI", "LangGraph", "Groq", "Mapbox", "WebSocket"],
 		github: "https://github.com/fjiolla/Traffic-Analyser",
-		live: null,
+		live: "https://llm-co-pilot-for-traffic-incident-c.vercel.app",
 	},
 	{
 		title: "Kontexo",
